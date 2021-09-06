@@ -1,0 +1,36 @@
+    /*code below for header part*/
+    body > .head {height:140px}
+    img.logo {height:100px;max-width:100%}
+    div.drDiv {padding: 55px 20px 0px;}
+    div.dr {margin-left:-20px;}
+    .dr > button {font-size:15px;background-color: #41aac8;}
+    .dr > .drContent {margin-right:50px}
+    .two > a { text-decoration: none;border-radius: 40px; padding: 12px 30px;
+               background-color: #41aac8; color: white;
+            }
+    .two > #logIn {margin-right: 10px ;}
+    .drContent > a:focus {background-color: #41aac8;}
+
+    /*code below for main part*/
+    video.ca {
+       max-width: 100%;
+       height: auto;
+       box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    div.right > h3 {margin-top: 5px;margin-bottom: 14px;color:#41aac8}
+    div.right > .service {display:inline-block;}
+    form p {color: red;}
+    .row > .vérif {  max-width: 100%; }
+
+    /*code below for footer part*/
+    .mapouter{position:relative;text-align:right;height:110px;width:210px;display:inline-block;}
+    .gmap_canvas {overflow:hidden;background:none!important;height:110px;width:210px;}
+    div.footer{background-color: #333333;color:white;}
+    div.coords i {margin-right:10px;}
+    .fa-whatsapp {color: #075e54;}
+    .fa-envelope {color: #c71610;}
+    @media only screen and (max-width: 576px){ .two { display: none;} .ma {width: 180px;} 
+    iframe {width: 180px;}  .mapouter {width: 180px;}}
+    @media only screen and (min-width: 576px){ .dr {display:none;} }
+    @media only screen and (min-width: 768px){ .ma {margin-left: -100px;} .co {margin-left:80px;} 
+    .ca {margin-top: 25px;}}
